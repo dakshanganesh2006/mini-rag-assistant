@@ -6,3 +6,10 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+
+chroma_db_*
+*.rtf
+*.docx
+*.pdf
+uploads/
+venv/

@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_chroma import Chroma
 
-load_dotenv()
+load_dotenv(override=True)
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 embeddings = GoogleGenerativeAIEmbeddings(
